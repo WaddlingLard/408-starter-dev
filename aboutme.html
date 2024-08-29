@@ -4,22 +4,33 @@
         <meta charset="UTF-8">
         <title>About Me!</title>
         <style>
+            html {
+                background-color: skyblue;
+            }
             h1 {
                 display: inline;
-                color: skyblue;
+                color: black;
                 background-color: beige;
                 border-radius: 8px;
             }
-            span {
+            #center {
                 display: inline-block;
                 background-color: beige;
                 border-radius: 8px;
+            }
+            #container {
+                padding: 15px;
+                display: inline-block;
+                background-color: white;
+                border-radius: 12px;
             }
             #buffer {
                 color: beige;
             }
             #me {
                 padding: 10px; 
+                background-color: beige;
+                border-radius: 8px;
                 
             }
             #clickme {
@@ -37,23 +48,26 @@
     </header>
 
     <body>
-        <h1>About Me!</h1>
-        <br><br>
-        <img id="me" src="img/me.png" width="20%">
-        <p>Sorry, I don't have a picture on this computer of me so I have instead this screenshot of a video I took instead. It works, huh? </p>
-        <span id="center">
-            <script type="module" src="js/main.js"></script>
-            <p id="buffer">_____________________________________</p>
-            <ul>
-                <li>Name: Brian Wu</li>
-                <li>Expected Graduation: May 2025</li>
-                <li>Nope.</li>
-                <li>Also Nope. :( Would be fun though!</li>
-                <li><button type="button" id="clickme">Click Me!</button></li>
-            </ul>   
-            <p id="buffer">_____________________________________</p>
+        <span id="container">
+            <h1>About Me!</h1>
+            <br><br>
+            <img id="me" src="img/me.png" width="20%">
+            <p>Sorry, I don't have a picture on this computer of me so I have instead this screenshot of a video I took instead. It works, huh? </p>
+            <span id="center">
+                <script type="module" src="js/main.js"></script>
+                <p id="buffer">_____________________________________</p>
+                <ul>
+                    <li>Name: Brian Wu</li>
+                    <li>Expected Graduation: May 2025</li>
+                    <li>Nope.</li>
+                    <li>Also Nope. :( Would be fun though!</li>
+                    <li><button type="button" id="clickme">Click Me!</button></li>
+                </ul>   
+                <p id="buffer">_____________________________________</p>
+            </span>
+            <br><br>
+            <a href="index.html">Home!</a>
         </span>
-        <br><br>
-        <a href="index.html">Home!</a>
+            
     </body>
 </html>

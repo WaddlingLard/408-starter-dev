@@ -1,5 +1,18 @@
 window.onload = loaded;
 
+let button = document.getElementById("clickme");
+if (button == null) {
+
+} else {
+    button.addEventListener("click", helloHandler);
+}
+
+function helloHandler() {
+    const hello = sayHello();
+    console.log(hello);
+    alert("You clicked me hehehe!");
+}
+
 /**
  * Simple Function that will be run when the browser is finished loading.
  */
