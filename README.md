@@ -2,7 +2,8 @@
 
 ## Overview
 
-TODO: Write a project description
+To run the website, use the extension "Live Preview" on VSCode to view the website!
+Also, you can view the website though a web browser using "localhost:3000" while the extension is running.
 
 ## Sources and Credits
 

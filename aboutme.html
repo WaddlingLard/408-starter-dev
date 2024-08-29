@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="UTF-8">
+        <title>About Me!</title>
+        <style>
+            h1 {
+                display: inline;
+                color: skyblue;
+                background-color: beige;
+                border-radius: 8px;
+            }
+            span {
+                display: inline-block;
+                background-color: beige;
+                border-radius: 8px;
+            }
+            #buffer {
+                color: beige;
+            }
+            #me {
+                padding: 10px; 
+                
+            }
+            #clickme {
+                color: red;
+                background-color: black;
+                border-radius: 8px;
+                transition-duration: .5s;
+            }
+            #clickme:hover {
+                color: green;
+                background-color: white;
+               
+            }
+        </style>
+    </header>
+
+    <body>
+        <h1>About Me!</h1>
+        <br><br>
+        <img id="me" src="img/me.png" width="20%">
+        <p>Sorry, I don't have a picture on this computer of me so I have instead this screenshot of a video I took instead. It works, huh? </p>
+        <span id="center">
+            <script type="module" src="js/main.js"></script>
+            <p id="buffer">_____________________________________</p>
+            <ul>
+                <li>Name: Brian Wu</li>
+                <li>Expected Graduation: May 2025</li>
+                <li>Nope.</li>
+                <li>Also Nope. :( Would be fun though!</li>
+                <li><button type="button" id="clickme">Click Me!</button></li>
+            </ul>   
+            <p id="buffer">_____________________________________</p>
+        </span>
+        <br><br>
+        <a href="index.html">Home!</a>
+    </body>
+</html>
